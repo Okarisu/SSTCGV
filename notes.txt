@@ -1,0 +1,5 @@
+J1 INPUT - POT 
+J2 COILS: 1(Q3); 2(capacitors-middle); 3(Q1); 4(secondary coil)
+J3 POWER: 1(GND); 2(capacitors-PWR)
+
+C8-10 SMD keramické
