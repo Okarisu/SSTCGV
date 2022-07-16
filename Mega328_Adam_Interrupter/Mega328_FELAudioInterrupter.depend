@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1484217076 source:/home/noname/AVRprojects/Mega328_LowDutyAudioInterrupter/Mega328_LowDutyAudioInterrupter/main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+
+1498039847 source:/home/noname/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"luts.h"
+	"lcd.h"
+	"digits.h"
+
+1484827742 /home/noname/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/luts.h
+
+1484412052 source:/home/noname/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/lcd.c
+
+1489315474 /home/noname/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/lcd.h
+	<util/delay.h>
+	<avr/io.h>
+
+1479913218 source:/home/noname/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/digits.c
+	<avr/io.h>
+	"digits.h"
+
+1479914826 /home/noname/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/digits.h
+
+1479913218 source:/home/tefa/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/digits.c
+	<avr/io.h>
+	"digits.h"
+
+1479914826 /home/tefa/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/digits.h
+
+1484412052 source:/home/tefa/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/lcd.c
+
+1548848029 source:/home/tefa/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"luts.h"
+
+1548785009 /home/tefa/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/luts.h
+
+1533136149 /home/tefa/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/lcd.h
+	<util/delay.h>
+	<avr/io.h>
+
+1548786260 source:/home/tefa/Projects/AVRprojects/Mega328_LowDutyAudioInterrupter/asm_func.S
+	<avr/io.h>
+
+1548786260 source:/home/tefa/Projects/AVRprojects/Mega328_VSV_Interrupter/asm_func.S
+	<avr/io.h>
+
+1574856347 source:/home/tefa/Projects/AVRprojects/Mega328_VSV_Interrupter/main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"luts.h"
+
+1548785009 /home/tefa/Projects/AVRprojects/Mega328_VSV_Interrupter/luts.h
+
+1574872217 source:/home/tefa/Projects/AVRprojects/Mega328_FEL_Interrupter/asm_func.S
+	<avr/io.h>
+
+1589276519 source:/home/tefa/Projects/AVRprojects/Mega328_FEL_Interrupter/main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"luts.h"
+
+1589275215 /home/tefa/Projects/AVRprojects/Mega328_FEL_Interrupter/luts.h
+
+1574872217 source:/home/tefa/Projects/AVRprojects/Mega328_Adam_Interrupter/asm_func.S
+	<avr/io.h>
+
+1591976325 source:/home/tefa/Projects/AVRprojects/Mega328_Adam_Interrupter/main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"luts.h"
+
+1589275215 /home/tefa/Projects/AVRprojects/Mega328_Adam_Interrupter/luts.h
+

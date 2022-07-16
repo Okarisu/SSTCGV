@@ -1,0 +1,602 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                              /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+/home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                              obj/Release/main.o (__do_copy_data)
+/home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                              obj/Release/main.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+sw_prescaler        0x1               obj/Release/main.o
+btns_old            0x1               obj/Release/main.o
+old_note            0x1               obj/Release/main.o
+command             0x1               obj/Release/main.o
+note_octave         0x1               obj/Release/main.o
+note_dval           0x4               obj/Release/main.o
+channel             0x1               obj/Release/main.o
+sw_prescaler2       0x1               obj/Release/main.o
+pw0                 0x1               obj/Release/main.o
+note                0x1               obj/Release/main.o
+timer2_sw_prescaler
+                    0x1               obj/Release/main.o
+note_state          0x1               obj/Release/main.o
+ch_stat             0x1               obj/Release/main.o
+note_note           0x1               obj/Release/main.o
+settings_selector   0x1               obj/Release/main.o
+
+Discarded input sections
+
+ .debug_abbrev  0x0000000000000000      0x5a2 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_info    0x0000000000000000      0x5f4 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_line    0x0000000000000000       0x1a /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_str     0x0000000000000000      0x208 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD obj/Release/asm_func.o
+LOAD obj/Release/main.o
+LOAD /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libm.a
+LOAD /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a
+LOAD /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000      0x41e
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000068                . = ALIGN (0x2)
+                0x0000000000000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000068        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x0000000000000068                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000068                __ctors_start = .
+ *(.ctors)
+                0x0000000000000068                __ctors_end = .
+                0x0000000000000068                __dtors_start = .
+ *(.dtors)
+                0x0000000000000068                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000068        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000068        0xc /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000074       0x16 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000074                __do_copy_data
+ .init4         0x000000000000008a       0x10 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000009a        0x8 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000a2        0x4 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000000a2                __vector_22
+                0x00000000000000a2                __vector_1
+                0x00000000000000a2                __vector_24
+                0x00000000000000a2                __bad_interrupt
+                0x00000000000000a2                __vector_6
+                0x00000000000000a2                __vector_3
+                0x00000000000000a2                __vector_23
+                0x00000000000000a2                __vector_25
+                0x00000000000000a2                __vector_13
+                0x00000000000000a2                __vector_17
+                0x00000000000000a2                __vector_19
+                0x00000000000000a2                __vector_7
+                0x00000000000000a2                __vector_5
+                0x00000000000000a2                __vector_4
+                0x00000000000000a2                __vector_9
+                0x00000000000000a2                __vector_2
+                0x00000000000000a2                __vector_21
+                0x00000000000000a2                __vector_15
+                0x00000000000000a2                __vector_8
+                0x00000000000000a2                __vector_10
+                0x00000000000000a2                __vector_16
+                0x00000000000000a2                __vector_20
+ .text          0x00000000000000a6       0x8c obj/Release/asm_func.o
+                0x00000000000000b4                pulse
+ .text          0x0000000000000132      0x274 obj/Release/main.o
+                0x0000000000000132                note_off
+                0x000000000000015a                note_on
+                0x00000000000001d0                __vector_18
+                0x00000000000002d8                __vector_14
+                0x00000000000002fa                __vector_11
+                0x0000000000000384                __vector_12
+ .text          0x00000000000003a6        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text          0x00000000000003a6        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x00000000000003a6        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000003a6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x00000000000003a6       0x74 obj/Release/main.o
+                0x00000000000003a6                main
+ .text.libgcc.mul
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000041a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000000000000041a        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                0x000000000000041a                exit
+                0x000000000000041a                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000000000000041a        0x4 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x000000000000041e                _etext = .
+
+.data           0x0000000000800100      0x190 load address 0x000000000000041e
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .data          0x0000000000800100        0x0 obj/Release/asm_func.o
+ .data          0x0000000000800100      0x18c obj/Release/main.o
+                0x0000000000800100                baud_pre
+                0x0000000000800102                prolong_pulse
+                0x0000000000800103                old_note_state
+                0x0000000000800104                note_change
+                0x0000000000800105                receive_status
+                0x0000000000800106                mode
+                0x0000000000800107                ch2_sync
+                0x0000000000800108                dr_duty_lim
+                0x0000000000800109                set_pw
+                0x000000000080010a                set_duty
+                0x000000000080010b                ch_mixed
+                0x000000000080010c                max_pw_value
+                0x000000000080016c                note_prescale_value
+                0x00000000008001cc                note_tim_value
+ .data          0x000000000080028c        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .data          0x000000000080028c        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x000000000080028c        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x000000000080028c        0x4 obj/Release/main.o
+                0x000000000080028c                baud31250
+                0x000000000080028e                baud38400
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800290                . = ALIGN (0x2)
+                0x0000000000800290                _edata = .
+                0x0000000000800290                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800290       0x15
+                0x0000000000800290                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0000000000800290        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000800290        0x0 obj/Release/asm_func.o
+ .bss           0x0000000000800290        0x3 obj/Release/main.o
+                0x0000000000800290                dual
+                0x0000000000800291                block
+                0x0000000000800292                baud_selector
+ .bss           0x0000000000800293        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000800293        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000800293        0x0 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0000000000800293       0x12 obj/Release/main.o
+                0x0000000000800293                sw_prescaler
+                0x0000000000800294                btns_old
+                0x0000000000800295                old_note
+                0x0000000000800296                command
+                0x0000000000800297                note_octave
+                0x0000000000800298                note_dval
+                0x000000000080029c                channel
+                0x000000000080029d                sw_prescaler2
+                0x000000000080029e                pw0
+                0x000000000080029f                note
+                0x00000000008002a0                timer2_sw_prescaler
+                0x00000000008002a1                note_state
+                0x00000000008002a2                ch_stat
+                0x00000000008002a3                note_note
+                0x00000000008002a4                settings_selector
+                0x00000000008002a5                PROVIDE (__bss_end, .)
+                0x000000000000041e                __data_load_start = LOADADDR (.data)
+                0x00000000000005ae                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008002a5        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x00000000008002a5                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x30
+ *(.comment)
+ .comment       0x0000000000000000       0x30 obj/Release/main.o
+                                         0x31 (size before relaxing)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(bin/Release/Mega328_FELAudioInterrupter.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+__FUSE_REGION_LENGTH__                            /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__bad_interrupt                                   /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                                                  obj/Release/main.o
+__do_copy_data                                    /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                                                  obj/Release/main.o
+__heap_end                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__init                                            /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__stack                                           /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_1                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       obj/Release/main.o
+                                                  /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       obj/Release/main.o
+                                                  /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       obj/Release/main.o
+                                                  /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       obj/Release/main.o
+                                                  /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+_exit                                             /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+baud31250                                         obj/Release/main.o
+baud38400                                         obj/Release/main.o
+baud_pre                                          obj/Release/main.o
+baud_selector                                     obj/Release/main.o
+block                                             obj/Release/main.o
+btns_old                                          obj/Release/main.o
+ch2_sync                                          obj/Release/main.o
+ch_mixed                                          obj/Release/main.o
+ch_stat                                           obj/Release/main.o
+channel                                           obj/Release/main.o
+command                                           obj/Release/main.o
+dr_duty_lim                                       obj/Release/main.o
+dual                                              obj/Release/main.o
+exit                                              /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                                                  /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+main                                              obj/Release/main.o
+                                                  /home/tefa/Software/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+max_pw_value                                      obj/Release/main.o
+mode                                              obj/Release/main.o
+note                                              obj/Release/main.o
+note_change                                       obj/Release/main.o
+note_dval                                         obj/Release/main.o
+note_note                                         obj/Release/main.o
+note_octave                                       obj/Release/main.o
+note_off                                          obj/Release/main.o
+note_on                                           obj/Release/main.o
+note_prescale_value                               obj/Release/main.o
+note_state                                        obj/Release/main.o
+note_tim_value                                    obj/Release/main.o
+old_note                                          obj/Release/main.o
+old_note_state                                    obj/Release/main.o
+prolong_pulse                                     obj/Release/main.o
+pulse                                             obj/Release/asm_func.o
+                                                  obj/Release/main.o
+pw0                                               obj/Release/main.o
+receive_status                                    obj/Release/main.o
+set_duty                                          obj/Release/main.o
+set_pw                                            obj/Release/main.o
+settings_selector                                 obj/Release/main.o
+sw_prescaler                                      obj/Release/main.o
+sw_prescaler2                                     obj/Release/main.o
+timer2_sw_prescaler                               obj/Release/main.o
